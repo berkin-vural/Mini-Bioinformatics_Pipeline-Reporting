@@ -40,6 +40,7 @@ snakemake --use-conda -j 4
 ```
 
 #-j 4 runs up to 4 jobs in parallel (depending on rule dependencies).
+
 #--use-conda ensures Snakemake uses the environment specified in envs/qc.yml.
 
 # Outputs
@@ -47,6 +48,8 @@ snakemake --use-conda -j 4
 Outputs are created under results/:
 
 results/stats/<sample>.per_read_metrics.csv
+
+results/stats/<sample>.per_read_metrics_summary.txt
 
 results/plots/<sample>.gc_hist.png
 
