@@ -18,7 +18,7 @@ threads: 4
 
 2) Create the conda environment
 
-**'''bash**
+```bash
 conda env create -f envs/qc.yml
 conda activate longread-qc
-**'''**
+```
