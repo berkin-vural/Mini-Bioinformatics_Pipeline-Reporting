@@ -20,4 +20,5 @@ threads: 4
 
 '''bash
 conda env create -f envs/qc.yml
-conda activate longread-qc'''
+conda activate longread-qc
+'''
