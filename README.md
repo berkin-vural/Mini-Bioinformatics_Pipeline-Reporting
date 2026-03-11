@@ -14,3 +14,4 @@ input_fastq: "data/reads.fastq"     # FASTQ or FASTQ.GZ
 outdir: "results"
 sample_name: "Sample1"
 threads: 4
+"""
