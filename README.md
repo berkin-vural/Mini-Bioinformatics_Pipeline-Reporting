@@ -26,12 +26,16 @@ conda activate longread-qc
 # 3) Run the pipeline
 
 Dry-run (recommended)
+
 ```bash
 snakemake -n -p
 ```
+
 Execute
+
 ```bash
 snakemake --use-conda -j 4
 ```
+
 # -j 4 runs up to 4 jobs in parallel (depending on rule dependencies).
 # --use-conda ensures Snakemake uses the environment specified in envs/qc.yml.
