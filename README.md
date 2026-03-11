@@ -5,7 +5,7 @@ Reproducible long-read FASTQ QC pipeline (per-read stats + plots) using Snakemak
 
 - Conda (Miniconda / Mambaforge recommended)
 
-## 1) Configure the input
+1) Configure the input
 
 Edit `config/config.yaml`:
 
@@ -16,3 +16,8 @@ sample_name: "Sample1"
 threads: 4
 ```
 
+2) Create the conda environment
+
+'''bash
+conda env create -f envs/qc.yml
+conda activate longread-qc'''
