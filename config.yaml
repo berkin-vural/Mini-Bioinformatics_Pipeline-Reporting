@@ -1,4 +1,0 @@
-input_fastq: "data/barcode77.fastq.gz"   # FASTQ veya FASTQ.GZ
-outdir: "results"
-sample_name: "Sample1"
-threads: 4
