@@ -1,0 +1,10 @@
+Dear Professor Kılıç,
+
+I would like to briefly summarize the results of my mini bioinformatics pipeline analysis. I processed the sequencing reads, calculated per-read summary metrics, and generated three main plots showing GC content, mean read quality, and read length distribution.
+
+The GC distribution is centered around ~53%, with a mean of 53.0% and a median of 53.5%, which suggests consistent sequence composition across the dataset. The read length distribution is right-skewed, which is expected for long-read data: the mean read length is 1038 bp, the median is 547 bp, and the N50 is 1761 bp. This indicates that while many reads are relatively short, there is also a useful fraction of longer reads in the dataset. The mean read quality distribution is broader, with an average Q score of 17.9 and a median of 17.3. This suggests the dataset is of moderate quality overall, but still suitable for downstream processing with appropriate filtering.
+
+Based on these results, I would recommend proceeding to alignment, while applying a basic quality and length filtering step beforehand to remove the lowest-quality and very short reads. In my opinion, the dataset appears usable for downstream analysis, but a light filtering step would likely improve alignment performance and reliability.
+
+Best regards,
+Berkin Vural
