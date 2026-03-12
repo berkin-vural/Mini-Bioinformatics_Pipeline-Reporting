@@ -49,7 +49,7 @@ Outputs are created under results/:
 
 results/stats/<sample>.per_read_metrics.csv
 
-results/stats/<sample>.per_read_metrics_summary.txt
+results/stats/<sample>.per_read_metrics.summary.txt
 
 results/plots/<sample>.gc_hist.png
 
