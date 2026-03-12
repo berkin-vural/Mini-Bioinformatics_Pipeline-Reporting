@@ -7,5 +7,4 @@ dependencies:
   - pandas
   - numpy
   - matplotlib
-  - jinja2
   - bioconda::snakemake-minimal
